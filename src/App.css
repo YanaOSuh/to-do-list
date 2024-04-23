@@ -1,0 +1,144 @@
+body{
+  background-color: black;
+}
+span {
+  color: #c4ed91;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: #fcfcfc;
+  font-size: 60px;
+  text-shadow: 4px 3px 3px #000000;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 1.5px;
+}
+.mainBox {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+.container {
+  background-color: #fcfcfc;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 43px -20px #000000 inset;
+  padding: 20px 20px 0px 20px;
+  border-radius: 5px;
+}
+.todaysDate {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom, #002e00 0%, #356000 46%, #c4ed91 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+input {
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  width: 100%;
+}
+.userInput {
+  border-bottom: 2px solid #356000;
+  padding-bottom: 10px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.addButton {
+  border: none;
+  background-color: #356000;
+  color: #fcfcfc;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+ul,li {
+  list-style-type: none;
+}
+li {
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  color: #002e00;
+  padding: 10px;
+}
+ul {
+  align-self: flex-start;
+  width: 80%;
+}
+.bulletImg {
+  margin-right: 10px;
+}
+.crossed {
+  text-decoration: line-through 2px rgba(68, 67, 67);
+  background-color: #b8b8b8;
+  background-color: rgba(184,184,184, 0.5);
+  -webkit-text-decoration-line: line-through;
+  -webkit-text-decoration-color: rgba(68, 67, 67);
+  -webkit-text-decoration-thickness:2px;
+}
+.deleteButton {
+  border: none;
+  background-color: #3c3c3c;
+  color: #fcfcfc;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.coffeePic {
+  align-self: flex-end;
+  margin-top: -30px;
+}
+
+@media all and (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+}
+@media all and (max-width: 400px) {
+  .container {
+    width: 300px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
+@media all and (max-width: 300px) {
+  .container {
+    width: 220px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .todaysDate {
+    font-size: 20px;
+  }
+  .userInput {
+    width: 90%;
+  }
+  .addButton, .deleteButton {
+    font-size: 16px;
+  }
+  .coffeePic img {
+    width: 60px;
+  }
+  .coffeePic {
+    margin-top: 0;
+  }
+}
