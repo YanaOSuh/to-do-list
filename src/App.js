@@ -14,6 +14,9 @@ export default class App extends Component {
         <div className="mainBox">
           <ToDoList />
         </div>
+        <div className="link">
+          <a className="myInfo" href="https://yanaos-portfolio.glitch.me/" target="_blank">Developed by <span className="myName">YanaOS</span></a>
+        </div>
     </div>
     )
   }

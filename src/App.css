@@ -105,6 +105,27 @@ ul {
   align-self: flex-end;
   margin-top: -30px;
 }
+.link {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 10px;
+}    
+.myInfo {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: #3c3c3c;
+  text-decoration: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.myName {
+  text-decoration: none;
+  cursor: pointer;
+  color:  #2b4d11;
+  font-weight: 500;
+}
 
 @media all and (max-width: 540px) {
   .container {
