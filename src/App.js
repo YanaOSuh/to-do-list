@@ -15,7 +15,7 @@ export default class App extends Component {
           <ToDoList />
         </div>
         <div className="link">
-          <a className="myInfo" href="https://yanaos-portfolio.glitch.me/" target="_blank" rel="noreferrer">Developed by <span className="myName">YanaOS</span></a>
+          <a className="myInfo" href="https://yanaos-portfolio.netlify.app/" target="_blank" rel="noreferrer">Developed by <span className="myName">YanaOS</span></a>
         </div>
     </div>
     )
